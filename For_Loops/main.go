@@ -19,12 +19,16 @@ func main() {
 	//For loop
 	for i := 0; i <= 5; i++ {
 		fmt.Println(i)
+		if i == 1 {
+			continue
+		}
 		if i == 2 {
 			fmt.Println("Good luck in heaven")
 			break
 		}
-		if i == 1 {
-			continue
-		}
+	}
+	//1.22 Golang range feature
+	for i := range 3 {
+		fmt.Println(i)
 	}
 }
