@@ -12,4 +12,12 @@ func main() {
 	} else {
 		fmt.Println("Person is a kid")
 	}
+	var role = "admin"
+	var perms = true
+
+	if role == "admin" && perms {
+		fmt.Println("Yes")
+	} else {
+		fmt.Println("no")
+	}
 }
