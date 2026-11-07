@@ -17,4 +17,13 @@ func main() {
 	var names [3]string
 	names[0] = "Kutta"
 	fmt.Println(names)
+
+	//To declare the lements of an array in single line
+	numbers := [3]int{1, 2, 3}
+	fmt.Println(numbers)
+
+	//2D arrays
+	digits := [2][2]int{{1, 2},
+		{3, 4}}
+	fmt.Println(digits)
 }
