@@ -27,4 +27,19 @@ func main() {
 	default:
 		fmt.Println("It is a workday")
 	}
+
+	//type switch
+	whoami := func(i interface{}) { //interface{} means any type
+		switch i.(type) {
+		case int:
+			fmt.Println("integer")
+		case float32:
+			fmt.Println("float")
+		case string:
+			fmt.Println("string")
+		default:
+			fmt.Println("Other")
+		}
+	}
+	whoami(2)
 }
