@@ -12,5 +12,5 @@ func main() {
 	fmt.Println("Enter your age")
 	fmt.Scanln(&age)
 
-	fmt.Printf("Your name is %s .You are %d years old", name, age)
+	fmt.Printf("Your name is %s .You are %d years old\n", name, age)
 }
